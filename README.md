@@ -8,20 +8,6 @@ includes:
 <ul>
 	<li>testPieChartSvg.go -- Main file for testing the pie chart generator</li>
 	<li>src/chart/pie.go -- Actual brute force pie chart generator tha could be made way more configurable. Just wanting to learn some go.</li>
+	<li>SamplePie.svg -- Sample output from the generator</li>
 </ul>
-
-<svg xmlns="http://www.w3.org/2000/svg" width="160" height="170">
-<defs>
-<radialGradient id="greenGradient" fx="5%" fy="5%" r="65%" spreadMethod="pad"><stop offset="0%" stop-color="#00ee00" stop-opacity="1"/><stop offset="100%" stop-color="#006600" stop-opacity="1" /></radialGradient>
-<radialGradient id="redGradient" fx="5%" fy="5%" r="65%" spreadMethod="pad"><stop offset="0%" stop-color="#ee0000" stop-opacity="1"/><stop offset="100%" stop-color="#660000" stop-opacity="1" /></radialGradient>
-<radialGradient id="greyGradient" fx="5%" fy="5%" r="65%" spreadMethod="pad"><stop offset="0%" stop-color="#dedede" stop-opacity="1"/><stop offset="100%" stop-color="#5e5e5e" stop-opacity="1" /></radialGradient>
-</defs><g>
-<text x="20" y="18">Sample Title</text> 
-<circle cx="80" cy="90" r="60" stroke="black" stroke-width="3" style="fill:url(#greyGradient)"/><path d="M80,90  L140,90 A60,60 0 0,1 132,120 z" stroke-width="3" stroke="#000000" style="stroke-linejoin:bevel;fill:url(#greenGradient)"/><path d="M80,90  L132,120 A60,60 0 0,1 50,142 z" stroke-width="3" stroke="#000000" style="stroke-linejoin:bevel;fill:url(#redGradient)"/>
-<title>Green: 10
-Red: 30
-Grey: 80</title>
-<circle cx="80" cy="90" r="1" stroke="black" stroke-width="1"/>
-</g></svg>
-
 
