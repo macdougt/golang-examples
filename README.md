@@ -6,8 +6,8 @@ My go language examples
 Pie chart generator
 includes:
 <ul>
-	<li>testPieChartSvg.go</li>
-	<li>src/chart/pie.go</li>
+	<li><details><summary>testPieChartSvg.go</summary> Main file for testing the pie chart generator</details></li>
+	<li><details><summary>src/chart/pie.go</summary> Actual brute force pie chart generator tha could be made way more configurable. Just wanting to learn some go.</details></li>
 </ul>
 
 
