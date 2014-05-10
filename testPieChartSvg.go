@@ -31,7 +31,7 @@ func main() {
 	//fmt.Println(testContent)
 
 	// Write to a file
-	fileName := "SamplePie.svg"
+	fileName := "testPieChartSvgOut.svg"
 
 	stringToFile(fileName, testContent)
 
